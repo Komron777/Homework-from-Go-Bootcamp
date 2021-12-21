@@ -19,7 +19,7 @@ type Tutor struct {
 }
 
 func main() {
-
+	fmt.Println("SALOM")
 	centers := []EduCenter{
 		{
 			Name: "NT",
