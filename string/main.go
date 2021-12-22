@@ -1,8 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"strings"
+	f "fmt"
+	s "strings"
+//	u "unicode"
 	//"strings"
 )
 
@@ -15,12 +16,12 @@ func main() {
 
 	// }
 	// fmt.Println(strings.Contains("Komron","om"))//boolean
-	// fmt.Println(strings.Count("Komron","o"))//boolean
-	// fmt.Println(strings.HasPrefix("Komron","Ko"))//boolean
-	// fmt.Println(strings.HasSuffix("Komron","on"))//boolean
-	// fmt.Println(strings.Index("Komron","Kosdfd"))//boolean
-	// fmt.Println(strings.Join(["Komron","Fayziboyev","Komron"] []string,"**")//boolean
-	// fmt.Println(strings.Index("Komron","Kosdfd"))//boolean
+	// fmt.Println(strings.Count("Komron","o"))
+	// fmt.Println(strings.HasPrefix("Komron","Ko"))
+	// fmt.Println(strings.HasSuffix("Komron","on"))
+	// fmt.Println(strings.Index("Komron","Kosdfd"))
+	// fmt.Println(strings.Join(["Komron","Fayziboyev","Komron"] []string,"**")
+	// fmt.Println(strings.Index("Komron","Kosdfd"))
 	// fmt.Println(strings.Trim("Komron","or"))
 	// var word, word1 string
 	// fmt.Scanln(&word)
@@ -32,9 +33,5 @@ func main() {
 	// } else {
 	// 	fmt.Println(false)	
 	// }
-	text := "Hello Tashkent!"
-	var new string
-	for _,j := range text {
-		new += string(j)
-	}
+	f.Println(s.Join([]string{"Komron","Akmal","Bakhtishod"}," is a IHT student\n"))
 }
