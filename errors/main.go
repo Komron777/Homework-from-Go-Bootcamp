@@ -1,18 +1,25 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	//"strconv"
 	//"error"
 )
-func main(){
-	var a uint32 = 5
-	defer specPrint(a)
-	a = 6
-	fmt.Print(a)
+func divide(a,b int) (int,error) {
+	if b == 0 {
+		return -1,errors.New("Can't be divided by zero!")
+	}
+	return a/b,nil
+	//errors.Is()
 }
-func specPrint(s uint32) uint32 {
-	fmt.Print(s)
-	s++
-	return s
+func finish() {
+	fmt.Println("Good bye")
+}
+func main(){
+	//fmt.Println(divide(5,0))
+	fmt.Println("Wassup")
+	defer fmt.Println("bro")
+	defer finish()
+	fmt.Println("How're you doing?")
 }
