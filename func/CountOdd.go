@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
-
+import (
+	"fmt"
+)
 func OddCount(n int) int {
 	var odd [] int
 	for i := 1; i <= n; i += 2 {
