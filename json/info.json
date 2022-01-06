@@ -1,0 +1,34 @@
+{
+	"ID" : 134,
+	"Number" : "AF-1",
+	"Year" : 2,
+	"Students" : [
+		{
+			"LastName" : "Fayziboyev",
+			"FirstName" : "Komron",
+			"MiddleName" : "Erkinjon o'g'li",
+			"DateOfBirth" : "15.01.2004",
+			"Address" : "Furkat 7, Gazalkent city, Bostonlyk dis., Tashkent reg.",
+			"Phone" : "+998977777777",
+			"Rating": [23,5,6,7,4,7]
+		},
+		{
+			"LastName" : "Akhadjonov",
+			"FirstName" : "Akmal",
+			"MiddleName" : "Asrorjon o'g'li",
+			"DateOfBirth" : "22.04.2004",
+			"Address" : "Fergana",
+			"Phone" : "+998977347777",
+			"Rating": [6,7,4]
+		},
+		{
+			"LastName" : "Umurzakov",
+			"FirstName" : "Bakhtishod",
+			"MiddleName" : "Eshnazar o'g'li",
+			"DateOfBirth" : "22.11.2004",
+			"Address" : "Qashqadaryo",
+			"Phone" : "+998977771111",
+			"Rating": [23,4,5,456,7,9,5,4,7,8]
+		}
+	]
+}
