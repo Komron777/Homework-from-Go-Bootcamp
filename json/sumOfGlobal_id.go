@@ -19,7 +19,8 @@ func main() {
 	}
 	f,_ := os.Open(filename)
 	json.NewDecoder(f).Decode(&items)
-	for _,item := range items {
+	fmt.Println(items)
+	for _,item := range items {		
 		sum += item.Id
 	}
 	fmt.Println(sum)

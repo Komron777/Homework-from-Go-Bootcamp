@@ -122,7 +122,7 @@ func main() {
 	// 	panic("Cannot create the file with such extension")
 	// }
 	// defer file.Close()
-	// w := bufio.NewWriter(file)
+	// w := bufio.NewWriter(file)cd
 	// n, err := w.WriteString("input string")
 	// fmt.Printf("%d written\n", n)
 	// w.Flush()
@@ -196,6 +196,5 @@ func main() {
 	// // [row 5 col 1 row 5 col 2 row 5 col 3]
 
 	reader := bufio.NewReader(os.Stdin)
-	text,_ := reader.ReadString('\n')
-	fmt.Print(text)
+	
 }
