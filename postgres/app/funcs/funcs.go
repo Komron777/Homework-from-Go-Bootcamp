@@ -16,7 +16,7 @@ type User struct {
 
 func (*User) Get() []User {
 	q, err := DB.Query(`SELECT id,firstname,lastname,nameofgroup,status
-        FROM firsttable LIMIT $1`, 10)
+        FROM firsttable`)
 	if err != nil {
 		panic(err)
 	}
